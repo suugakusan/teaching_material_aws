@@ -4,7 +4,7 @@ lock "~> 3.16.0"
 set :application, "teaching_material"
 set :repo_url, "git@github.com:suugakusan/teaching_material_aws.git"
 set :rbenv_ruby, '3.0.0'
-set :branch, ENV['BRANCH'] || "master"
+set :branch, ENV['BRANCH'] || "main"
 
 set :nginx_config_name, "#{fetch(:application)}.conf"
 set :nginx_sites_enabled_path, "/etc/nginx/conf.d"
