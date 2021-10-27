@@ -20,7 +20,7 @@ worker_timeout 3600 if ENV.fetch("RAILS_ENV", "development") == "development"
 # Specifies the `environment` that Puma will run in.
 #
 environment ENV.fetch("RAILS_ENV") { "development" }
-bind "unix://#{Rails.root}/tmp/sockets/puma.sock"
+bind "unix://#{Rails.root}//shared/tmp/sockets/puma.sock"
 # Specifies the `pidfile` that Puma will use.
 pidfile ENV.fetch("PIDFILE") { "tmp/pids/server.pid" }
 
