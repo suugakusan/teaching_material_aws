@@ -2,7 +2,9 @@
 lock "~> 3.16.0"
 
 set :application, "teaching_material"
-set :repo_url, "git@github.com:suugakusan/teaching_materials_app.git"
+
+set :repo_url, "git@github.com:suugakusan/teaching_material_aws.git"
+
 set :rbenv_ruby, '3.0.0'
 set :branch, ENV['BRANCH'] || "main"
 
